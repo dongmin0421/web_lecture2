@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.parent {
+
+}
+
+.c {
+    background-color: blue;
+}
