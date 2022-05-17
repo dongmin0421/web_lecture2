@@ -1,0 +1,7 @@
+const login_menu = document.querySelector("#login-link");
+
+function askId () {
+    prompot("ID를 입력해주세요!");
+}
+
+login_menu.EventListner("click, askId");
