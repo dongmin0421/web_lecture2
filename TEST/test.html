@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>시험</title>
+</head>
+
+<body>
+    <header>
+        <a href="https://sangilmedia.sen.hs.kr/"><img src="./logo_html.jpg" alt="로고 이미지"></a>
+        <h3>상일미디어 고등학교 도제반 페이지</h3>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="home.html">홈</a>
+            </li>
+            <li>
+                <a href="https://sangilmedia.sen.hs.kr/">상일미디어고</a>
+            </li>
+            <li>
+                <a href="">방명록</a>
+            </li>
+            <li>
+                <a href="" onclick="alert('로그인하세요!')">로그인</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="timetable">
+            <h3>5월 시간표</h3>
+            <table>
+                <tr>
+                    <td></td>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                </tr>
+                <tr>
+                    <th>1교시</th>
+                    <td>Quiz</td>
+                    <td>Quiz</td>
+                    <td>Quiz</td>
+                    <td>Quiz</td>
+                    <td>Quiz</td>
+                </tr>
+                <tr>
+                    <th>2교시</th>
+                    <td rowspan="3">화면구현 특강</td>
+                    <td rowspan="3">화면구현 특강</td>
+                    <td rowspan="3">화면구현 특강</td>
+                    <td rowspan="3">화면구현 특강</td>
+                    <td rowspan="3">화면구현 특강</td>
+                </tr>
+                <tr>
+                    <th>3교시</th>
+                </tr>
+                <tr>
+                    <th>4교시</th>
+                </tr>
+                <tr>
+                    <th colspan="6">점심시간</th>
+                </tr>
+                <tr>
+                    <th>5교시</th>
+                    <td rowspan="2">화면구현 실습</td>
+                    <td rowspan="2">화면구현 실습</td>
+                    <td rowspan="2">화면구현 실습</td>
+                    <td rowspan="2">화면구현 실습</td>
+                    <td>화면구현 실습</td>
+                </tr>
+                <tr>
+                    <th>6교시</th>
+                    <td>동아리</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="form-wrapper">
+            <form action="">
+                <h3>한줄 방명록 작성하기</h3>
+                <label for="input-id">작성자</label>
+                <input type="text" name="writer" id="input-id" class="input-item" placeholder="이름을 입력하세요" required>
+        
+                <label for="input-bt">내용</label>
+                <input type="text" name="content" id="input-bt" class="input-item" placeholder="내용을 입력하세요" required>
+        
+                <input class="input-bt" type="submit" value="완료">
+                </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>copyright 정동민</p>
+        <p>2022년 5월 22일 작성</p>
+    </footer>
+</body>
+
+</html>

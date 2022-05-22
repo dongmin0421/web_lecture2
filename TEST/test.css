@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+header {
+    padding: 20px 30px;
+    display: flex;
+    background-color: lightseagreen;
+    color:white;
+    height: 100px;
+    align-items: center;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;   
+}
+
+a:hover {
+    color: white;
+}
+
+.timetable {
+    margin-bottom: 30px;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+th {
+    background-color: lightblue;
+}
+
+td, th {
+    width: 130px;
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-item {
+    background-color: lightblue;
+    padding: 10px;
+    border: none;
+}
+
+.input-bt {
+    width: 100px;
+}
+
+section {
+    padding: 10px 20px;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+}
+
+.form-wrapper {
+    width: 300px;
+}
+
+.form-wrapper h3, form label, form input {
+    margin-bottom: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+    background-color: lightgray;
+    width: 100%;
+}
